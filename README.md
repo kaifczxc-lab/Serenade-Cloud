@@ -6,13 +6,13 @@ Official cloud-based playground for the Serenade programming language. Build and
 
 
 ---
-## ◈ How to start?
+# ◈ How to start?
 In two steps!
 * First Step - Open this link "https://replit.com/import/github" **OR** Open **Replit** and go on **import page** and choose **Github**
 * Second Step - Copy the repo link and paste in needed box
-
-### Tips
-* 1. If you need to run a file other than main.serenade, you need to go into that file and make one change (for example, space or shift + enter)
+---
+# Tips
+* If you need to run a file other than main.serenade, you need to go into that file and make one change (for example, space or shift + enter)
 ---
 # ◈ Documentation
 Explore the core principles and internal architecture in our official guide:

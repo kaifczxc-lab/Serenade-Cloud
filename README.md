@@ -4,11 +4,11 @@
 # ◈ Serenade-Cloud
 Official cloud-based playground for the Serenade programming language. Build and run Serenade code instantly in your browser
 
-
+[![Run on Replit](https://replit.com/badge/github/kaifczxc-lab/Serenade-Cloud)](https://replit.com/new/github/kaifczxc-lab/Serenade-Cloud)
 ---
 # ◈ How to start?
 In two steps!
-* First Step - Open this link "https://replit.com/import/github" **OR** Open **Replit** and go on **import page** and choose **Github**
+* First Step - Open the link above **OR** Open **Replit** and go on **import page** and choose **Github**
 * Second Step - Copy the repo link and paste in needed box
 ---
 # Tips

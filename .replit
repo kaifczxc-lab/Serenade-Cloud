@@ -1,6 +1,9 @@
 entrypoint = "main.serenade"
-run        = "bash run.sh"
-hidden     = ["run.sh", "serena.build.conf", "serena_out"]
-
+run = "bash run.sh"
+hidden = ["run.sh", "serena.build.conf", "serena_out"]
+modules = ["bash", "nix"]
 [nix]
-channel = "stable-24_05"
+channel = "stable-25_05"
+
+[agent]
+expertMode = true

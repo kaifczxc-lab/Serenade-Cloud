@@ -6,7 +6,7 @@ Official cloud-based playground for the Serenade programming language. Build and
 ---
 ## ◈ How to start?
 In two steps!
-* First Step - Open this "https://replit.com/import/github" **OR** Open **Replit** and go on **import page** and choose **Github**
+* First Step - Open this link "https://replit.com/import/github" **OR** Open **Replit** and go on **import page** and choose **Github**
 * Second Step - Copy the repo link and paste in needed box
 ---
 # ◈ Documentation

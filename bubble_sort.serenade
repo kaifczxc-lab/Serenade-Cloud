@@ -1,0 +1,38 @@
+task Sr_Swap(arr, i, j) {
+  let tmp = arr^[i]
+  arr^[i] = arr^[j]
+  arr^[j] = tmp
+}
+task Sr_BubbleSort(arr, n) {
+  cycle n as i {
+    let limit = n - 1 - i
+    cycle limit as j {
+      let a = arr^[j]
+      let b = arr^[j + 1]
+      if a > b {
+        Sr_Swap(arr, j, j + 1)
+      }
+    }
+  }
+}
+task Sr_PrintArray(arr, n, label) {
+  emit label
+  cycle n as i {
+    emit "{i}: {arr^[i]}"
+  }
+}
+let n = 10
+let arr = @f32[n]
+arr^[0] = 9
+arr^[1] = 4
+arr^[2] = 6
+arr^[3] = 2
+arr^[4] = 8
+arr^[5] = 1
+arr^[6] = 0
+arr^[7] = 7
+arr^[8] = 3
+arr^[9] = 5
+Sr_PrintArray(arr, n, "before")
+Sr_BubbleSort(arr, n)
+Sr_PrintArray(arr, n, "after")

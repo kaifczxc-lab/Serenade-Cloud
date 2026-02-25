@@ -1,0 +1,39 @@
+# Welcome to Serenade Language!
+# Edit this file and press Run to see the output.
+
+task greet(name) {
+    emit "Hello, {name}!"
+}
+
+task add(a, b) {
+    return a + b
+}
+
+task factorial(n) {
+    let result = 1
+    let i = 2
+    while i <= n {
+        result = result * i
+        i = i + 1
+    }
+    return result
+}
+
+let language = "Serenade"
+let version  = 1
+
+greet(language)
+emit "Version: {version}"
+emit "Simple as Python, fast as C++"
+
+let x = 6
+let y = 7
+let sum = add(x, y)
+emit "{x} + {y} = {sum}"
+
+cycle 5 as step {
+    emit "Step {step}"
+}
+
+let fact = factorial(10)
+emit "10! = {fact}"

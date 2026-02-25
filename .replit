@@ -1,0 +1,6 @@
+entrypoint = "main.serenade"
+run        = "bash run.sh"
+hidden     = ["run.sh", "serena.build.conf", "serena_out"]
+
+[nix]
+channel = "stable-24_05"
